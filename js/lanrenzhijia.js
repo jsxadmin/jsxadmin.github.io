@@ -27,6 +27,12 @@ $(document).ready(function(){
   };
   
   var options = {
+ //�����Զ�����	
+	playlistOptions: {
+		autoPlay: true,
+		enableRemoveControls: true
+	  },	  
+	  
     swfPath: "http://cdnjs.cloudflare.com/ajax/libs/jplayer/2.6.4/jquery.jplayer/Jplayer.swf",
     supplied: "ogv, m4v, oga, mp3"
   };
