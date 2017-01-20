@@ -5,7 +5,8 @@ $(document).ready(function(){
   var playlist = [{
       title:"Hidden",
       artist:"Miaow",
-      mp3:"http://demo.lanrenzhijia.com/2014/music0917/images/i1.mp3",
+	  mp3:"../images/i1.mp3",
+      //mp3:"http://demo.lanrenzhijia.com/2014/music0917/images/i1.mp3",
       //oga:"http://www.jplayer.org/audio/ogg/Miaow-02-Hidden.ogg",
      // poster: "http://33.media.tumblr.com/0b35eb42176eedbf4a96e52efa760875/tumblr_mxp7a0v3fr1rqx86wo1_500.png"
     },{
@@ -31,8 +32,7 @@ $(document).ready(function(){
 	playlistOptions: {
 		autoPlay: true,
 		enableRemoveControls: true
-	  },	  
-	  
+	  },
     swfPath: "http://cdnjs.cloudflare.com/ajax/libs/jplayer/2.6.4/jquery.jplayer/Jplayer.swf",
     supplied: "ogv, m4v, oga, mp3"
   };
